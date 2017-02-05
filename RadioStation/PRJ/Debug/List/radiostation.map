@@ -1,0 +1,887 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.2.10312/W32 for ARM                25/Jan/2017  22:25:25
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  D:\Ham\RadioStation\PRJ\Debug\Exe\radiostation.out
+#    Map file     =  D:\Ham\RadioStation\PRJ\Debug\List\radiostation.map
+#    Command line =  
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_24lc16.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_ad9834.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_ad9951.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_adc.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_baud.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_board.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_dac.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_delay.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_iambic_keyer.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_kenwood.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_key.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_oled.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_oled_api.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_pwm.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_receive_att.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_timer.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_transmit_power.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_usart.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\bsp_vol.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\i2c.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\main.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\misc.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\startup_stm32f10x_hd.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\stm32f10x_adc.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\stm32f10x_dma.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\stm32f10x_exti.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\stm32f10x_gpio.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\stm32f10x_rcc.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\stm32f10x_tim.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\stm32f10x_usart.o
+#        D:\Ham\RadioStation\PRJ\Debug\Obj\system_stm32f10x.o --redirect
+#        _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        D:\Ham\RadioStation\PRJ\Debug\Exe\radiostation.out --map
+#        D:\Ham\RadioStation\PRJ\Debug\List\radiostation.map --config
+#        D:\Ham\RadioStation\PRJ\stm32f10x_flash.icf --semihosting --entry
+#        __iar_program_start --redirect __iar_sh_stdout=__iar_sh_stdout_swo
+#        --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P2":  place in [from 0x08000000 to 0x0803ffff] { ro };
+"P3":  place in [from 0x20000000 to 0x2000ffff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                      0x130
+  .intvec            ro code  0x08000000   0x130  startup_stm32f10x_hd.o [1]
+                            - 0x08000130   0x130
+
+"P2":                                     0xb820
+  .text              ro code  0x08000130  0x3518  bsp_oled_api.o [1]
+  .text              ro code  0x08003648   0x366  bsp_oled.o [1]
+  .text              ro code  0x080039ae    0x76  lz77_init_single.o [5]
+  .text              ro code  0x08003a24    0x36  strlen.o [5]
+  .text              ro code  0x08003a5a     0x2  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08003a5c    0x26  bsp_delay.o [1]
+  .text              ro code  0x08003a84   0x1f4  bsp_pwm.o [1]
+  .text              ro code  0x08003c78    0xd8  bsp_transmit_power.o [1]
+  .text              ro code  0x08003d50   0x1ac  stm32f10x_gpio.o [1]
+  .text              ro code  0x08003efc   0x25c  stm32f10x_tim.o [1]
+  .text              ro code  0x08004158   0x184  stm32f10x_rcc.o [1]
+  .text              ro code  0x080042dc  0x1ecc  bsp_board.o [1]
+  .text              ro code  0x080061a8   0x3fe  bsp_24lc16.o [1]
+  .text              ro code  0x080065a8    0x76  ABImemcpy_unaligned.o [5]
+  .text              ro code  0x08006620    0xd0  bsp_vol.o [1]
+  .text              ro code  0x080066f0   0x298  i2c.o [1]
+  .text              ro code  0x08006988   0xc28  bsp_key.o [1]
+  .text              ro code  0x080075b0   0x1e4  bsp_adc.o [1]
+  .text              ro code  0x08007794   0x374  bsp_baud.o [1]
+  .text              ro code  0x08007b08   0xb44  bsp_iambic_keyer.o [1]
+  .text              ro code  0x0800864c   0x134  bsp_ad9834.o [1]
+  .text              ro code  0x08008780   0x1e8  bsp_ad9951.o [1]
+  .text              ro code  0x08008968   0x310  bsp_usart.o [1]
+  .text              ro code  0x08008c78   0x174  bsp_timer.o [1]
+  .text              ro code  0x08008dec    0xc4  stm32f10x_exti.o [1]
+  .text              ro code  0x08008eb0    0x7c  misc.o [1]
+  .text              ro code  0x08008f2c   0x1c0  stm32f10x_dma.o [1]
+  .text              ro code  0x080090ec   0x248  stm32f10x_adc.o [1]
+  .text              ro code  0x08009334    0x1c  I32ToDbl.o [4]
+  .text              ro code  0x08009350   0x256  DblDiv.o [4]
+  .text              ro code  0x080095a8   0x1a2  DblMul.o [4]
+  .text              ro code  0x0800974c    0x2c  DblToI32.o [4]
+  .text              ro code  0x08009778   0x132  I64DivMod.o [5]
+  .text              ro code  0x080098ac    0x66  ABImemset.o [5]
+  .text              ro code  0x08009914   0x250  stm32f10x_usart.o [1]
+  .text              ro code  0x08009b64  0x1328  bsp_kenwood.o [1]
+  .text              ro code  0x0800ae8c     0x2  I64DivZer.o [5]
+  .text              ro code  0x0800ae90   0x148  system_stm32f10x.o [1]
+  .text              ro code  0x0800afd8    0x40  zero_init3.o [5]
+  .text              ro code  0x0800b018    0x28  data_init.o [5]
+  .iar.init_table    const    0x0800b040    0x20  - Linker created -
+  .text              ro code  0x0800b060    0x1c  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800b07c    0x1a  cmain.o [5]
+  .text              ro code  0x0800b096    0x18  main.o [1]
+  .text              ro code  0x0800b0ae     0x4  exit.o [3]
+  .text              ro code  0x0800b0b4     0xa  cexit.o [5]
+  .text              ro code  0x0800b0c0    0x14  exit.o [6]
+  .rodata            const    0x0800b0d4     0xc  bsp_kenwood.o [1]
+  .text              ro code  0x0800b0e0     0xc  cstartup_M.o [5]
+  .rodata            const    0x0800b0ec     0x8  bsp_board.o [1]
+  .rodata            const    0x0800b0f4     0x8  bsp_board.o [1]
+  .rodata            const    0x0800b0fc     0x8  bsp_board.o [1]
+  .rodata            const    0x0800b104     0x8  bsp_board.o [1]
+  .rodata            const    0x0800b10c     0x8  bsp_board.o [1]
+  .rodata            const    0x0800b114     0x8  bsp_board.o [1]
+  .rodata            const    0x0800b11c     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b124     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b12c     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b134     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b13c     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b144     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b14c     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b154     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b15c     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b164     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b16c     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b174     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b17c     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b184     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b18c     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b194     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b19c     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b1a4     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b1ac     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b1b4     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b1bc     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b1c4     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b1cc     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b1d4     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b1dc     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b1e4     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b1ec     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b1f4     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b1fc     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b204     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b20c     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b214     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b21c     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b224     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b22c     0x8  bsp_kenwood.o [1]
+  .rodata            const    0x0800b234     0x8  bsp_oled_api.o [1]
+  .rodata            const    0x0800b23c     0x8  bsp_oled_api.o [1]
+  .rodata            const    0x0800b244     0x8  bsp_oled_api.o [1]
+  .rodata            const    0x0800b24c     0x8  bsp_oled_api.o [1]
+  .rodata            const    0x0800b254     0x8  bsp_oled_api.o [1]
+  .rodata            const    0x0800b25c     0x4  system_stm32f10x.o [1]
+  .rodata            const    0x0800b260     0x0  zero_init3.o [5]
+  .rodata            const    0x0800b260     0x0  lz77_init_single.o [5]
+  Initializer bytes  const    0x0800b260   0x6f0  <for P3-1>
+                            - 0x0800b950  0xb820
+
+"P3", part 1 of 3:                        0x124b
+  P3-1                        0x20000000  0x124b  <Init block>
+    .data            inited   0x20000000    0x78  bsp_board.o [1]
+    .data            inited   0x20000078    0x28  bsp_board.o [1]
+    .data            inited   0x200000a0    0x4c  bsp_iambic_keyer.o [1]
+    .data            inited   0x200000ec    0x58  bsp_oled_api.o [1]
+    .data            inited   0x20000144    0x58  bsp_oled_api.o [1]
+    .data            inited   0x2000019c   0x13c  bsp_oled_api.o [1]
+    .data            inited   0x200002d8   0x480  bsp_oled_api.o [1]
+    .data            inited   0x20000758   0x3c0  bsp_oled_api.o [1]
+    .data            inited   0x20000b18   0x690  bsp_oled_api.o [1]
+    .data            inited   0x200011a8     0x4  bsp_pwm.o [1]
+    .data            inited   0x200011ac    0x80  bsp_pwm.o [1]
+    .data            inited   0x2000122c    0x10  stm32f10x_rcc.o [1]
+    .data            inited   0x2000123c     0x4  stm32f10x_rcc.o [1]
+    .data            inited   0x20001240     0x2  bsp_oled_api.o [1]
+    .data            inited   0x20001242     0x2  bsp_oled_api.o [1]
+    .data            inited   0x20001244     0x1  bsp_iambic_keyer.o [1]
+    .data            inited   0x20001245     0x1  bsp_key.o [1]
+    .data            inited   0x20001246     0x1  bsp_oled_api.o [1]
+    .data            inited   0x20001247     0x1  bsp_oled_api.o [1]
+    .data            inited   0x20001248     0x1  bsp_oled_api.o [1]
+    .data            inited   0x20001249     0x1  bsp_oled_api.o [1]
+    .data            inited   0x2000124a     0x1  bsp_usart.o [1]
+                            - 0x2000124b  0x124b
+
+"P3", part 2 of 3:                         0x400
+  CSTACK                      0x20001250   0x400  <Block>
+    CSTACK           uninit   0x20001250   0x400  <Block tail>
+                            - 0x20001650   0x400
+
+"P3", part 3 of 3:                         0x4f0
+  .bss               zero     0x20001650   0x258  bsp_board.o [1]
+  .bss               zero     0x200018a8    0x80  bsp_pwm.o [1]
+  .bss               zero     0x20001928    0x6c  bsp_board.o [1]
+  .bss               zero     0x20001994    0x44  bsp_usart.o [1]
+  .bss               zero     0x200019d8    0x40  bsp_usart.o [1]
+  .bss               zero     0x20001a18    0x2c  bsp_board.o [1]
+  .bss               zero     0x20001a44    0x20  bsp_adc.o [1]
+  .bss               zero     0x20001a64    0x20  bsp_usart.o [1]
+  .bss               zero     0x20001a84     0xc  bsp_board.o [1]
+  .bss               zero     0x20001a90     0xc  bsp_iambic_keyer.o [1]
+  .bss               zero     0x20001a9c     0x8  bsp_board.o [1]
+  .bss               zero     0x20001aa4     0x8  bsp_board.o [1]
+  .bss               zero     0x20001aac     0x8  bsp_board.o [1]
+  .bss               zero     0x20001ab4     0x4  bsp_ad9834.o [1]
+  .bss               zero     0x20001ab8     0x4  bsp_ad9834.o [1]
+  .bss               zero     0x20001abc     0x4  bsp_ad9951.o [1]
+  .bss               zero     0x20001ac0     0x4  bsp_ad9951.o [1]
+  .bss               zero     0x20001ac4     0x4  bsp_board.o [1]
+  .bss               zero     0x20001ac8     0x4  bsp_board.o [1]
+  .bss               zero     0x20001acc     0x4  bsp_board.o [1]
+  .bss               zero     0x20001ad0     0x4  bsp_board.o [1]
+  .bss               zero     0x20001ad4     0x4  bsp_board.o [1]
+  .bss               zero     0x20001ad8     0x4  bsp_board.o [1]
+  .bss               zero     0x20001adc     0x4  bsp_board.o [1]
+  .bss               zero     0x20001ae0     0x4  bsp_board.o [1]
+  .bss               zero     0x20001ae4     0x4  bsp_board.o [1]
+  .bss               zero     0x20001ae8     0x4  bsp_iambic_keyer.o [1]
+  .bss               zero     0x20001aec     0x4  bsp_iambic_keyer.o [1]
+  .bss               zero     0x20001af0     0x4  bsp_iambic_keyer.o [1]
+  .bss               zero     0x20001af4     0x4  bsp_iambic_keyer.o [1]
+  .bss               zero     0x20001af8     0x4  bsp_iambic_keyer.o [1]
+  .bss               zero     0x20001afc     0x4  bsp_key.o [1]
+  .bss               zero     0x20001b00     0x4  bsp_timer.o [1]
+  .bss               zero     0x20001b04     0x4  bsp_timer.o [1]
+  .bss               zero     0x20001b08     0x2  bsp_board.o [1]
+  .bss               zero     0x20001b0a     0x2  bsp_iambic_keyer.o [1]
+  .bss               zero     0x20001b0c     0x2  bsp_iambic_keyer.o [1]
+  .bss               zero     0x20001b0e     0x2  bsp_iambic_keyer.o [1]
+  .bss               zero     0x20001b10     0x2  bsp_iambic_keyer.o [1]
+  .bss               zero     0x20001b12     0x2  bsp_key.o [1]
+  .bss               zero     0x20001b14     0x2  bsp_pwm.o [1]
+  .bss               zero     0x20001b16     0x1  bsp_board.o [1]
+  .bss               zero     0x20001b17     0x1  bsp_board.o [1]
+  .bss               zero     0x20001b18     0x1  bsp_board.o [1]
+  .bss               zero     0x20001b19     0x1  bsp_board.o [1]
+  .bss               zero     0x20001b1a     0x1  bsp_board.o [1]
+  .bss               zero     0x20001b1b     0x1  bsp_board.o [1]
+  .bss               zero     0x20001b1c     0x1  bsp_board.o [1]
+  .bss               zero     0x20001b1d     0x1  bsp_board.o [1]
+  .bss               zero     0x20001b1e     0x1  bsp_board.o [1]
+  .bss               zero     0x20001b1f     0x1  bsp_iambic_keyer.o [1]
+  .bss               zero     0x20001b20     0x1  bsp_iambic_keyer.o [1]
+  .bss               zero     0x20001b21     0x1  bsp_iambic_keyer.o [1]
+  .bss               zero     0x20001b22     0x1  bsp_iambic_keyer.o [1]
+  .bss               zero     0x20001b23     0x1  bsp_iambic_keyer.o [1]
+  .bss               zero     0x20001b24     0x1  bsp_iambic_keyer.o [1]
+  .bss               zero     0x20001b25     0x1  bsp_iambic_keyer.o [1]
+  .bss               zero     0x20001b26     0x1  bsp_iambic_keyer.o [1]
+  .bss               zero     0x20001b27     0x1  bsp_key.o [1]
+  .bss               zero     0x20001b28     0x1  bsp_key.o [1]
+  .bss               zero     0x20001b29     0x1  bsp_key.o [1]
+  .bss               zero     0x20001b2a     0x1  bsp_key.o [1]
+  .bss               zero     0x20001b2b     0x1  bsp_key.o [1]
+  .bss               zero     0x20001b2c     0x1  bsp_key.o [1]
+  .bss               zero     0x20001b2d     0x1  bsp_key.o [1]
+  .bss               zero     0x20001b2e     0x1  bsp_key.o [1]
+  .bss               zero     0x20001b2f     0x1  bsp_key.o [1]
+  .bss               zero     0x20001b30     0x1  bsp_key.o [1]
+  .bss               zero     0x20001b31     0x1  bsp_key.o [1]
+  .bss               zero     0x20001b32     0x1  bsp_key.o [1]
+  .bss               zero     0x20001b33     0x1  bsp_key.o [1]
+  .bss               zero     0x20001b34     0x1  bsp_key.o [1]
+  .bss               zero     0x20001b35     0x1  bsp_oled_api.o [1]
+  .bss               zero     0x20001b36     0x1  bsp_oled_api.o [1]
+  .bss               zero     0x20001b37     0x1  bsp_oled_api.o [1]
+  .bss               zero     0x20001b38     0x1  bsp_oled_api.o [1]
+  .bss               zero     0x20001b39     0x1  bsp_oled_api.o [1]
+  .bss               zero     0x20001b3a     0x1  bsp_pwm.o [1]
+  .bss               zero     0x20001b3b     0x1  bsp_pwm.o [1]
+  .bss               zero     0x20001b3c     0x1  bsp_usart.o [1]
+                            - 0x20001b3d   0x4ed
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x4ed:
+          0x20001650   0x4ed
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x6f0 (37% of destination):
+          0x0800b260   0x6f0
+    1 destination range, total size 0x124b:
+          0x20000000  0x124b
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+D:\Ham\RadioStation\PRJ\Debug\Obj: [1]
+    bsp_24lc16.o              1 022
+    bsp_ad9834.o                308                 8
+    bsp_ad9951.o                488                 8
+    bsp_adc.o                   484                32
+    bsp_baud.o                  884
+    bsp_board.o               7 884      108      995
+    bsp_delay.o                  38
+    bsp_iambic_keyer.o        2 884       29      125
+    bsp_kenwood.o             4 904      292
+    bsp_key.o                 3 112        1       21
+    bsp_oled.o                  870
+    bsp_oled_api.o           13 592    1 668    4 297
+    bsp_pwm.o                   500       50      264
+    bsp_timer.o                 372                 8
+    bsp_transmit_power.o        216
+    bsp_usart.o                 784        1      166
+    bsp_vol.o                   208
+    i2c.o                       664
+    main.o                       24
+    misc.o                      124
+    startup_stm32f10x_hd.o      334
+    stm32f10x_adc.o             584
+    stm32f10x_dma.o             448
+    stm32f10x_exti.o            196
+    stm32f10x_gpio.o            428
+    stm32f10x_rcc.o             388        7       20
+    stm32f10x_tim.o             604
+    stm32f10x_usart.o           592
+    system_stm32f10x.o          328        4
+    -------------------------------------------------
+    Total:                   43 264    2 160    5 944
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                        4
+    -------------------------------------------------
+    Total:                        4
+
+m7M_tl.a: [4]
+    DblDiv.o                    598
+    DblMul.o                    418
+    DblToI32.o                   44
+    I32ToDbl.o                   28
+    -------------------------------------------------
+    Total:                    1 088
+
+rt7M_tl.a: [5]
+    ABImemcpy_unaligned.o       118
+    ABImemset.o                 102
+    I64DivMod.o                 306
+    I64DivZer.o                   2
+    cexit.o                      10
+    cmain.o                      26
+    cstartup_M.o                 12
+    data_init.o                  40
+    lz77_init_single.o          118
+    strlen.o                     54
+    zero_init3.o                 64
+    -------------------------------------------------
+    Total:                      852
+
+shb_l.a: [6]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         20
+    Linker created                        32    1 024
+-----------------------------------------------------
+    Grand Total:             45 248    2 192    6 968
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x0800b040          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0800b060          --   Gb  - Linker created -
+?main                   0x0800b07d         Code  Gb  cmain.o [5]
+ADC1_2_IRQHandler       0x08007745   0x32  Code  Gb  bsp_adc.o [1]
+ADCPrescTable           0x2000123c    0x4  Data  Lc  stm32f10x_rcc.o [1]
+ADC_ClearITPendingBit   0x08009327    0xe  Code  Gb  stm32f10x_adc.o [1]
+ADC_Cmd                 0x08009193   0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_Config              0x080075b1   0xe6  Code  Gb  bsp_adc.o [1]
+ADC_DMACmd              0x080091ad   0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_DeInit              0x080090ed   0x5c  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetCalibrationStatus
+                        0x080091ef   0x14  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetConversionValue  0x080092e1    0x6  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetITStatus         0x080092fd   0x2a  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetResetCalibrationStatus
+                        0x080091d1   0x14  Code  Gb  stm32f10x_adc.o [1]
+ADC_Init                0x08009149   0x4a  Code  Gb  stm32f10x_adc.o [1]
+ADC_RegularChannelConfig
+                        0x0800921d   0xc4  Code  Gb  stm32f10x_adc.o [1]
+ADC_ResetCalibration    0x080091c7    0xa  Code  Gb  stm32f10x_adc.o [1]
+ADC_SoftwareStartConvCmd
+                        0x08009203   0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_StartCalibration    0x080091e5    0xa  Code  Gb  stm32f10x_adc.o [1]
+ADC_Value               0x20001a44   0x20  Data  Gb  bsp_adc.o [1]
+AIMgr                   0x20001acc    0x4  Data  Gb  bsp_board.o [1]
+APBAHBPrescTable        0x2000122c   0x10  Data  Lc  stm32f10x_rcc.o [1]
+ASCII_0705              0x20000b18  0x690  Data  Gb  bsp_oled_api.o [1]
+ASCII_1608              0x200002d8  0x480  Data  Gb  bsp_oled_api.o [1]
+ATT                     0x20001ad4    0x4  Data  Gb  bsp_board.o [1]
+BAUD                    0x20000000   0x78  Data  Gb  bsp_board.o [1]
+BuzzerIsRunning         0x20001b3b    0x1  Data  Gb  bsp_pwm.o [1]
+CALL_BUF                0x20000078   0x28  Data  Gb  bsp_board.o [1]
+CSTACK$$Base            0x20001250          --   Gb  - Linker created -
+CSTACK$$Limit           0x20001650          --   Gb  - Linker created -
+CWFilter                0x20001aac    0x8  Data  Gb  bsp_board.o [1]
+CWMode                  0x20001b16    0x1  Data  Gb  bsp_board.o [1]
+CWT_Off                 0x08007c45   0x10  Code  Gb  bsp_iambic_keyer.o [1]
+CWT_On                  0x08007c35   0x10  Code  Gb  bsp_iambic_keyer.o [1]
+CW_BFOControl           0x08003cd5   0x20  Code  Gb  bsp_transmit_power.o [1]
+CW_FilterControl        0x08003cb5   0x20  Code  Gb  bsp_transmit_power.o [1]
+CallCoder               0x200000a0   0x4c  Data  Gb  bsp_iambic_keyer.o [1]
+CopyTBufToDMA           0x08008bcb   0x20  Code  Gb  bsp_usart.o [1]
+DC                      0x20001adc    0x4  Data  Gb  bsp_board.o [1]
+DIGIT_3216              0x20000758  0x3c0  Data  Gb  bsp_oled_api.o [1]
+DMA1_Channel4_IRQHandler
+                        0x08008c33   0x1a  Code  Gb  bsp_usart.o [1]
+DMA_ClearFlag           0x080090a3   0x10  Code  Gb  stm32f10x_dma.o [1]
+DMA_Cmd                 0x08009071   0x1a  Code  Gb  stm32f10x_dma.o [1]
+DMA_DeInit              0x08008f2d  0x108  Code  Gb  stm32f10x_dma.o [1]
+DMA_ITConfig            0x0800908b   0x18  Code  Gb  stm32f10x_dma.o [1]
+DMA_Init                0x08009035   0x3c  Code  Gb  stm32f10x_dma.o [1]
+DMA_IsReady             0x2000124a    0x1  Data  Lc  bsp_usart.o [1]
+DMA_IsTxComplete        0x08008bc5    0x6  Code  Gb  bsp_usart.o [1]
+DRMgr                   0x20001ac8    0x4  Data  Gb  bsp_board.o [1]
+DahPaddle               0x20001b30    0x1  Data  Gb  bsp_key.o [1]
+DecToString             0x08009b97   0x40  Code  Gb  bsp_kenwood.o [1]
+DitPaddle               0x20001b2f    0x1  Data  Gb  bsp_key.o [1]
+EXTI15_10_IRQHandler    0x080071df  0x352  Code  Gb  bsp_key.o [1]
+EXTI2_IRQHandler        0x08006efb  0x2e4  Code  Gb  bsp_key.o [1]
+EXTI_ClearITPendingBit  0x08008e95    0x6  Code  Gb  stm32f10x_exti.o [1]
+EXTI_GetITStatus        0x08008e73   0x22  Code  Gb  stm32f10x_exti.o [1]
+EXTI_Init               0x08008ded   0x86  Code  Gb  stm32f10x_exti.o [1]
+FIL                     0x20001aa4    0x8  Data  Gb  bsp_board.o [1]
+FILFunc                 0x20001b1e    0x1  Data  Gb  bsp_board.o [1]
+FIL_Refresh             0x080046bd   0x3e  Code  Gb  bsp_board.o [1]
+FREQ                    0x20001a84    0xc  Data  Gb  bsp_board.o [1]
+GPIO_EXTILineConfig     0x08003ea5   0x4e  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_Init               0x08003d51   0xc0  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_NVIC_Config        0x08006a15   0x48  Code  Gb  bsp_key.o [1]
+GPIO_PinRemapConfig     0x08003e39   0x6c  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ReadInputData      0x08003e27    0x6  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ReadInputDataBit   0x08003e11   0x16  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ResetBits          0x08003e33    0x6  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_SetBits            0x08003e2d    0x6  Code  Gb  stm32f10x_gpio.o [1]
+Get_DDSBFO              0x08004ca3   0x3e  Code  Gb  bsp_board.o [1]
+Get_DDSLO               0x08004c49   0x5a  Code  Gb  bsp_board.o [1]
+KEY_EXTI_Config         0x08006989   0x8c  Code  Gb  bsp_key.o [1]
+KEY_SoftwareSet         0x08006edb   0x20  Code  Gb  bsp_key.o [1]
+Kenwodd_KeyingSpeedAnswer
+                        0x0800a5c1   0x42  Code  Gb  bsp_kenwood.o [1]
+Kenwodd_MemSet          0x0800a229   0x72  Code  Gb  bsp_kenwood.o [1]
+Kenwodd_SMeterAnswer    0x0800a50d   0x68  Code  Gb  bsp_kenwood.o [1]
+Kenwood_AFGainAnswer    0x0800a429   0x58  Code  Gb  bsp_kenwood.o [1]
+Kenwood_AFGainSet       0x0800a3e7   0x42  Code  Gb  bsp_kenwood.o [1]
+Kenwood_BaudSet         0x08009bd7   0x92  Code  Gb  bsp_kenwood.o [1]
+Kenwood_BuildTransceiverStatus
+                        0x08009c69  0x1e8  Code  Gb  bsp_kenwood.o [1]
+Kenwood_CmdParser       0x0800a629  0x7bc  Code  Gb  bsp_kenwood.o [1]
+Kenwood_MemoryChannelAnswer
+                        0x0800a481   0x4c  Code  Gb  bsp_kenwood.o [1]
+Kenwood_MemoryDataAnswer
+                        0x08009e51  0x1aa  Code  Gb  bsp_kenwood.o [1]
+Kenwood_ModeStauteAnswer
+                        0x0800a4cd   0x40  Code  Gb  bsp_kenwood.o [1]
+Kenwood_ModeSwithced    0x0800a191   0x98  Code  Gb  bsp_kenwood.o [1]
+Kenwood_SWRMeterAnswer  0x0800a575   0x4c  Code  Gb  bsp_kenwood.o [1]
+Kenwood_VFOAAnswer      0x0800a29b   0x74  Code  Gb  bsp_kenwood.o [1]
+Kenwood_VFOBAnswer      0x0800a30f   0x76  Code  Gb  bsp_kenwood.o [1]
+Kenwood_VFOSet          0x0800a385   0x62  Code  Gb  bsp_kenwood.o [1]
+Kenwood_VMAnswer        0x0800a12b   0x66  Code  Gb  bsp_kenwood.o [1]
+Kenwood_VMSwithced      0x08009ffb  0x130  Code  Gb  bsp_kenwood.o [1]
+MEM                     0x20001650  0x258  Data  Gb  bsp_board.o [1]
+MEM_Get                 0x08005fc1   0x38  Code  Gb  bsp_board.o [1]
+MEM_Save                0x08005ff9   0x4c  Code  Gb  bsp_board.o [1]
+MEM_SetModeRefresh      0x080047cd   0x7a  Code  Gb  bsp_board.o [1]
+MENU                    0x20001a18   0x2c  Data  Gb  bsp_board.o [1]
+MENU_SetDown            0x08004a09  0x1b4  Code  Gb  bsp_board.o [1]
+MENU_SetUp              0x0800484d  0x1b0  Code  Gb  bsp_board.o [1]
+MENU_Ts                 0x08004bbd   0x8c  Code  Gb  bsp_board.o [1]
+MICControlOff           0x08003d1f    0xe  Code  Gb  bsp_transmit_power.o [1]
+MICControlOn            0x08003d11    0xe  Code  Gb  bsp_transmit_power.o [1]
+MODE_Refresh            0x0800474b   0x82  Code  Gb  bsp_board.o [1]
+MemSetAll               0x20001b17    0x1  Data  Gb  bsp_board.o [1]
+MemSetMaxIndex          0x20001b1d    0x1  Data  Gb  bsp_board.o [1]
+MemSetMode              0x20001b19    0x1  Data  Gb  bsp_board.o [1]
+Mode                    0x20001b18    0x1  Data  Gb  bsp_board.o [1]
+NVIC_Init               0x08008ebb   0x5e  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                        0x08008eb1    0xa  Code  Gb  misc.o [1]
+PaddleUpdate            0x20001b31    0x1  Data  Gb  bsp_key.o [1]
+PttFinish               0x20001b33    0x1  Data  Gb  bsp_key.o [1]
+PttPressed              0x20001b32    0x1  Data  Gb  bsp_key.o [1]
+Q_BUF                   0x20001a90    0xc  Data  Gb  bsp_iambic_keyer.o [1]
+Queue                   0x20001af8    0x4  Data  Gb  bsp_iambic_keyer.o [1]
+QuietModeOff            0x08003d03    0xe  Code  Gb  bsp_transmit_power.o [1]
+QuietModeOn             0x08003cf5    0xe  Code  Gb  bsp_transmit_power.o [1]
+RADIO                   0x20001ad8    0x4  Data  Gb  bsp_board.o [1]
+RCC_AHBPeriphClockCmd   0x08004213   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x08004253   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB1PeriphResetCmd  0x08004293   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x08004233   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphResetCmd  0x08004273   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetClocksFreq       0x08004159   0xba  Code  Gb  stm32f10x_rcc.o [1]
+RF_IsRx                 0x0800614d    0xc  Code  Gb  bsp_board.o [1]
+RF_IsTx                 0x08006147    0x6  Code  Gb  bsp_board.o [1]
+RF_Rx                   0x08006095   0x3c  Code  Gb  bsp_board.o [1]
+RF_ToRx                 0x080060d1   0x36  Code  Gb  bsp_board.o [1]
+RF_ToTx                 0x08006111   0x36  Code  Gb  bsp_board.o [1]
+RF_Tx                   0x08006051   0x44  Code  Gb  bsp_board.o [1]
+Region$$Table$$Base     0x0800b040          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0800b060          --   Gb  - Linker created -
+RfIsTx                  0x20001b1c    0x1  Data  Gb  bsp_board.o [1]
+SET_E2P_MODE            0x080066f1   0x1c  Code  Gb  i2c.o [1]
+SET_I2C_SCK_PIN         0x0800670d   0x1c  Code  Gb  i2c.o [1]
+SET_I2C_SDA_DIR         0x08006745   0x2c  Code  Gb  i2c.o [1]
+SET_I2C_SDA_PIN         0x08006729   0x1c  Code  Gb  i2c.o [1]
+SampleTimes             0x20001b3a    0x1  Data  Gb  bsp_pwm.o [1]
+SetSysClock             0x0800aedd    0x8  Code  Lc  system_stm32f10x.o [1]
+SetSysClockTo24         0x0800aee5   0xda  Code  Lc  system_stm32f10x.o [1]
+Set_Column_Address      0x080037c5   0x1e  Code  Gb  bsp_oled.o [1]
+Set_Command_Lock        0x08003999   0x16  Code  Gb  bsp_oled.o [1]
+Set_Contrast_Current    0x08003941   0x14  Code  Gb  bsp_oled.o [1]
+Set_Display_Clock       0x080038bb   0x14  Code  Gb  bsp_oled.o [1]
+Set_Display_Enhancement_A
+                        0x080038cf   0x22  Code  Gb  bsp_oled.o [1]
+Set_Display_Enhancement_B
+                        0x0800397d   0x1c  Code  Gb  bsp_oled.o [1]
+Set_Display_Mode        0x0800384d    0xe  Code  Gb  bsp_oled.o [1]
+Set_Display_Offset      0x08003839   0x14  Code  Gb  bsp_oled.o [1]
+Set_Display_On_Off      0x08003899    0xe  Code  Gb  bsp_oled.o [1]
+Set_Function_Selection  0x08003885   0x14  Code  Gb  bsp_oled.o [1]
+Set_GPIO                0x080038f1   0x14  Code  Gb  bsp_oled.o [1]
+Set_Gray_Scale_Table    0x080016e7   0x6a  Code  Gb  bsp_oled_api.o [1]
+Set_Master_Current      0x08003955   0x14  Code  Gb  bsp_oled.o [1]
+Set_Multiplex_Ratio     0x08003969   0x14  Code  Gb  bsp_oled.o [1]
+Set_Partial_Display     0x0800385b   0x2a  Code  Gb  bsp_oled.o [1]
+Set_Phase_Length        0x080038a7   0x14  Code  Gb  bsp_oled.o [1]
+Set_Precharge_Period    0x08003905   0x14  Code  Gb  bsp_oled.o [1]
+Set_Precharge_Voltage   0x08003919   0x14  Code  Gb  bsp_oled.o [1]
+Set_Remap_Format        0x0800380b   0x1a  Code  Gb  bsp_oled.o [1]
+Set_Row_Address         0x080037e3   0x1e  Code  Gb  bsp_oled.o [1]
+Set_Start_Line          0x08003825   0x14  Code  Gb  bsp_oled.o [1]
+Set_VCOMH               0x0800392d   0x14  Code  Gb  bsp_oled.o [1]
+Set_Write_RAM           0x08003801    0xa  Code  Gb  bsp_oled.o [1]
+Show_CALL_SET           0x08002169   0x6a  Code  Gb  bsp_oled_api.o [1]
+Show_CH                 0x08001033  0x138  Code  Gb  bsp_oled_api.o [1]
+Show_CW_DELAY_SET       0x08001f41  0x228  Code  Gb  bsp_oled_api.o [1]
+Show_CW_FRE_SET         0x08001a6d  0x2a4  Code  Gb  bsp_oled_api.o [1]
+Show_CW_KEY_SET         0x0800256d  0x216  Code  Gb  bsp_oled_api.o [1]
+Show_CW_MODE_SET        0x080021e9  0x37e  Code  Gb  bsp_oled_api.o [1]
+Show_CW_VOL_SET         0x08002ef1  0x1e4  Code  Gb  bsp_oled_api.o [1]
+Show_DC                 0x08000613  0x1d2  Code  Gb  bsp_oled_api.o [1]
+Show_H_VSWR_P_SET       0x08001d29  0x1fc  Code  Gb  bsp_oled_api.o [1]
+Show_REF_SET            0x08002783  0x3b0  Code  Gb  bsp_oled_api.o [1]
+Show_R_BFO_SET          0x08002b41  0x39e  Code  Gb  bsp_oled_api.o [1]
+Show_String0705         0x0800098f  0x4e8  Code  Gb  bsp_oled_api.o [1]
+Show_TFREQ              0x08000221  0x28e  Code  Gb  bsp_oled_api.o [1]
+Show_TFREQ_Clear        0x080004af  0x164  Code  Gb  bsp_oled_api.o [1]
+Show_VOL                0x08000e89  0x1aa  Code  Gb  bsp_oled_api.o [1]
+Show_WPM                0x080007e5  0x1aa  Code  Gb  bsp_oled_api.o [1]
+SinPara                 0x200018a8   0x80  Data  Gb  bsp_pwm.o [1]
+SinTable                0x200011ac   0x80  Data  Gb  bsp_pwm.o [1]
+StringToDec             0x08009b65   0x32  Code  Gb  bsp_kenwood.o [1]
+SysTickGet              0x08007bdd    0x8  Code  Gb  bsp_iambic_keyer.o [1]
+SysTickSet              0x08007be5    0x8  Code  Gb  bsp_iambic_keyer.o [1]
+SysTickTask             0x08007bcd   0x10  Code  Gb  bsp_iambic_keyer.o [1]
+SystemFrequency_AHBClk  0x0800b25c    0x4  Data  Gb  system_stm32f10x.o [1]
+SystemInit              0x0800ae91   0x4c  Code  Gb  system_stm32f10x.o [1]
+TIM2_IRQHandler         0x08008d97   0x22  Code  Gb  bsp_timer.o [1]
+TIM3_IRQHandler         0x08003c13   0x3e  Code  Gb  bsp_pwm.o [1]
+TIM4_IRQHandler         0x08008db9   0x1e  Code  Gb  bsp_timer.o [1]
+TIM_ARRPreloadConfig    0x080040ed   0x1c  Code  Gb  stm32f10x_tim.o [1]
+TIM_ClearFlag           0x08004121    0x8  Code  Gb  stm32f10x_tim.o [1]
+TIM_ClearITPendingBit   0x08004151    0x8  Code  Gb  stm32f10x_tim.o [1]
+TIM_Cmd                 0x08004097   0x1c  Code  Gb  stm32f10x_tim.o [1]
+TIM_CtrlPWMOutputs      0x080040b3   0x22  Code  Gb  stm32f10x_tim.o [1]
+TIM_DeInit              0x08003efd   0xca  Code  Gb  stm32f10x_tim.o [1]
+TIM_GetITStatus         0x08004129   0x28  Code  Gb  stm32f10x_tim.o [1]
+TIM_ITConfig            0x080040d5   0x18  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC4Init             0x08003ffd   0x5c  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC4PreloadConfig    0x08004109   0x12  Code  Gb  stm32f10x_tim.o [1]
+TIM_OCStructInit        0x08004075   0x22  Code  Gb  stm32f10x_tim.o [1]
+TIM_SetCompare4         0x0800411b    0x6  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseInit        0x08003fc7   0x36  Code  Gb  stm32f10x_tim.o [1]
+TMR_IRQEnable           0x08008d77    0xc  Code  Gb  bsp_timer.o [1]
+TMR_Init                0x08008cef   0x88  Code  Gb  bsp_timer.o [1]
+TMR_NVIC_Config         0x08008c79   0x76  Code  Gb  bsp_timer.o [1]
+TMR_Start               0x08008d83    0xa  Code  Gb  bsp_timer.o [1]
+TMR_Stop                0x08008d8d    0xa  Code  Gb  bsp_timer.o [1]
+TP                      0x20001a9c    0x8  Data  Gb  bsp_board.o [1]
+TPLevel                 0x20001b1a    0x1  Data  Gb  bsp_board.o [1]
+TP_Refresh              0x080046fb   0x50  Code  Gb  bsp_board.o [1]
+TX_DELAY                0x20001b10    0x2  Data  Gb  bsp_iambic_keyer.o [1]
+Tmr2CallBack            0x20001b00    0x4  Data  Gb  bsp_timer.o [1]
+Tmr4CallBack            0x20001b04    0x4  Data  Gb  bsp_timer.o [1]
+UART_DMAStart           0x08008beb   0x2a  Code  Gb  bsp_usart.o [1]
+UART_Task               0x08005e51   0x26  Code  Gb  bsp_board.o [1]
+UART_TxBufSize          0x08008b91    0x6  Code  Gb  bsp_usart.o [1]
+USART1_IRQHandler       0x08008c15   0x1e  Code  Gb  bsp_usart.o [1]
+USART_ClearFlag         0x08009af5    0xc  Code  Gb  stm32f10x_usart.o [1]
+USART_ClockInit         0x08009a45   0x22  Code  Gb  stm32f10x_usart.o [1]
+USART_Cmd               0x08009a67   0x1c  Code  Gb  stm32f10x_usart.o [1]
+USART_DMACmd            0x08009ad5   0x18  Code  Gb  stm32f10x_usart.o [1]
+USART_DeInit            0x08009915   0x8e  Code  Gb  stm32f10x_usart.o [1]
+USART_GetITStatus       0x08009b01   0x64  Code  Gb  stm32f10x_usart.o [1]
+USART_ITConfig          0x08009a83   0x52  Code  Gb  stm32f10x_usart.o [1]
+USART_Init              0x080099a3   0x8e  Code  Gb  stm32f10x_usart.o [1]
+USART_ReceiveData       0x08009aed    0x8  Code  Gb  stm32f10x_usart.o [1]
+UTBuffer                0x20001994   0x44  Data  Lc  bsp_usart.o [1]
+UartBufInit             0x08008969   0x22  Code  Gb  bsp_usart.o [1]
+UartRxBuf               0x20001a64   0x20  Data  Gb  bsp_usart.o [1]
+UartRxLen               0x20001b3c    0x1  Data  Gb  bsp_usart.o [1]
+UartTx                  0x08008b39   0x1e  Code  Gb  bsp_usart.o [1]
+UartTxBufRead           0x08008b57   0x3a  Code  Gb  bsp_usart.o [1]
+UartTxBufWrite          0x08008b03   0x36  Code  Gb  bsp_usart.o [1]
+Uart_Send_Buffer        0x200019d8   0x40  Data  Lc  bsp_usart.o [1]
+VFO                     0x20001928   0x6c  Data  Gb  bsp_board.o [1]
+VFO_Get                 0x08005edd   0x64  Code  Gb  bsp_board.o [1]
+VFO_Save                0x08005f4d   0x74  Code  Gb  bsp_board.o [1]
+VOL                     0x20001ad0    0x4  Data  Gb  bsp_board.o [1]
+WPM                     0x20001ae0    0x4  Data  Gb  bsp_board.o [1]
+__aeabi_d2uiz           0x0800974d         Code  Gb  DblToI32.o [4]
+__aeabi_ddiv            0x08009351         Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x080095a9         Code  Gb  DblMul.o [4]
+__aeabi_ldiv0           0x0800ae8d         Code  Gb  I64DivZer.o [5]
+__aeabi_ldivmod         0x08009779         Code  Gb  I64DivMod.o [5]
+__aeabi_memset          0x080098ad         Code  Gb  ABImemset.o [5]
+__aeabi_ui2d            0x08009335         Code  Gb  I32ToDbl.o [4]
+__aeabi_uldivmod        0x080097bd         Code  Gb  I64DivMod.o [5]
+__cmain                 0x0800b07d         Code  Gb  cmain.o [5]
+__exit                  0x0800b0c1   0x14  Code  Gb  exit.o [6]
+__iar_Memset            0x080098ad         Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x080098b5         Code  Gb  ABImemset.o [5]
+__iar_d2uiz             0x08009759         Code  Gb  DblToI32.o [4]
+__iar_data_init3        0x0800b019   0x28  Code  Gb  data_init.o [5]
+__iar_lz77_init_single3
+                        0x080039af   0x76  Code  Gb  lz77_init_single.o [5]
+__iar_program_start     0x0800b0e1         Code  Gb  cstartup_M.o [5]
+__iar_ui2d              0x08009339         Code  Gb  I32ToDbl.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x080065a9         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x080065c9         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x080065c9         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_zero_init3        0x0800afd9   0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0800b063         Code  Gb  startup_stm32f10x_hd.o [1]
+__vector_table          0x08000000         Data  Gb  startup_stm32f10x_hd.o [1]
+_call_main              0x0800b089         Code  Gb  cmain.o [5]
+_exit                   0x0800b0b5         Code  Gb  cexit.o [5]
+_main                   0x0800b093         Code  Gb  cmain.o [5]
+ad9834_freq             0x080086f5   0x52  Code  Gb  bsp_ad9834.o [1]
+ad9834_freq_old         0x20001ab4    0x4  Data  Gb  bsp_ad9834.o [1]
+ad9834_init             0x0800864d   0x44  Code  Gb  bsp_ad9834.o [1]
+ad9834_write            0x08008691   0x64  Code  Gb  bsp_ad9834.o [1]
+ad9951_freq_old         0x20001abc    0x4  Data  Gb  bsp_ad9951.o [1]
+ad9951_init             0x080088bd   0x6e  Code  Gb  bsp_ad9951.o [1]
+ad9951_sdio_out         0x08008781   0x20  Code  Gb  bsp_ad9951.o [1]
+ad9951_update           0x0800885f   0x2e  Code  Gb  bsp_ad9951.o [1]
+ad9951_update_low       0x08008851    0xe  Code  Gb  bsp_ad9951.o [1]
+ad9951_write            0x080087a1   0xb0  Code  Gb  bsp_ad9951.o [1]
+ad9951_write_freq       0x0800888d   0x30  Code  Gb  bsp_ad9951.o [1]
+adc_batt                0x080076c5   0x20  Code  Gb  bsp_adc.o [1]
+adc_init                0x08007697   0x2e  Code  Gb  bsp_adc.o [1]
+adc_rf                  0x080076e5   0x20  Code  Gb  bsp_adc.o [1]
+adc_rx                  0x08007725   0x20  Code  Gb  bsp_adc.o [1]
+adc_swr                 0x08007705   0x20  Code  Gb  bsp_adc.o [1]
+adc_val                 0x20001ae4    0x4  Data  Gb  bsp_board.o [1]
+arrows_pos              0x20001b35    0x1  Data  Gb  bsp_oled_api.o [1]
+ascIndexToIambic        0x08007db5   0x40  Code  Gb  bsp_iambic_keyer.o [1]
+ascii_1608              0x080034c9   0x3c  Code  Gb  bsp_oled_api.o [1]
+baud_chn_ctrl           0x0800780b  0x2ee  Code  Gb  bsp_baud.o [1]
+baud_init               0x08007795   0x76  Code  Gb  bsp_baud.o [1]
+bfo_update              0x08008747   0x28  Code  Gb  bsp_ad9834.o [1]
+board_init              0x08004659   0x64  Code  Gb  bsp_board.o [1]
+board_refresh_manager   0x08004d59  0x776  Code  Gb  bsp_board.o [1]
+board_task              0x08005e77   0x50  Code  Gb  bsp_board.o [1]
+both_paddles_old        0x20001b22    0x1  Data  Lc  bsp_iambic_keyer.o [1]
+both_paddles_released   0x20001b23    0x1  Data  Lc  bsp_iambic_keyer.o [1]
+buzzer_freq_set         0x08003be7    0x8  Code  Gb  bsp_pwm.o [1]
+buzzer_start            0x08003bef   0x16  Code  Gb  bsp_pwm.o [1]
+buzzer_stop             0x08003c05    0xe  Code  Gb  bsp_pwm.o [1]
+call_enter              0x08007d57   0x36  Code  Gb  bsp_iambic_keyer.o [1]
+call_exit               0x08007d8d   0x28  Code  Gb  bsp_iambic_keyer.o [1]
+call_num                0x20001b25    0x1  Data  Gb  bsp_iambic_keyer.o [1]
+call_sending            0x20001b26    0x1  Data  Gb  bsp_iambic_keyer.o [1]
+call_task               0x08007df5  0x4de  Code  Gb  bsp_iambic_keyer.o [1]
+call_time               0x20001244    0x1  Data  Gb  bsp_iambic_keyer.o [1]
+char_stop_time          0x20001aec    0x4  Data  Lc  bsp_iambic_keyer.o [1]
+clk_ref_old             0x20001ac0    0x4  Data  Lc  bsp_ad9951.o [1]
+clk_ref_old1            0x20001ab8    0x4  Data  Lc  bsp_ad9834.o [1]
+con_4_byte              0x08001751   0xdc  Code  Gb  bsp_oled_api.o [1]
+dahDown                 0x20001b2c    0x1  Data  Gb  bsp_key.o [1]
+dahUp                   0x20001b2b    0x1  Data  Gb  bsp_key.o [1]
+delay_ms                0x08003a75    0xe  Code  Gb  bsp_delay.o [1]
+delay_stop_time         0x20001af4    0x4  Data  Lc  bsp_iambic_keyer.o [1]
+delay_us                0x08003a5d   0x18  Code  Gb  bsp_delay.o [1]
+ditDown                 0x20001b2a    0x1  Data  Gb  bsp_key.o [1]
+ditUp                   0x20001b29    0x1  Data  Gb  bsp_key.o [1]
+dit_time                0x20001ae8    0x4  Data  Lc  bsp_iambic_keyer.o [1]
+dma_init                0x0800898b   0x7c  Code  Gb  bsp_usart.o [1]
+duration                0x20001b20    0x1  Data  Lc  bsp_iambic_keyer.o [1]
+duration_tmp            0x20001b21    0x1  Data  Lc  bsp_iambic_keyer.o [1]
+dutyfactor              0x200011a8    0x4  Data  Gb  bsp_pwm.o [1]
+e2p_att_read            0x0800651b   0x14  Code  Gb  bsp_24lc16.o [1]
+e2p_att_write           0x0800650b   0x10  Code  Gb  bsp_24lc16.o [1]
+e2p_fil_read            0x080064d3   0x14  Code  Gb  bsp_24lc16.o [1]
+e2p_fil_write           0x080064c3   0x10  Code  Gb  bsp_24lc16.o [1]
+e2p_mem_read            0x0800637b   0x44  Code  Gb  bsp_24lc16.o [1]
+e2p_mem_write           0x08006337   0x44  Code  Gb  bsp_24lc16.o [1]
+e2p_menu_read           0x08006563   0x20  Code  Gb  bsp_24lc16.o [1]
+e2p_menu_write          0x08006553   0x10  Code  Gb  bsp_24lc16.o [1]
+e2p_pwm_read            0x0800653f   0x14  Code  Gb  bsp_24lc16.o [1]
+e2p_pwm_write           0x0800652f   0x10  Code  Gb  bsp_24lc16.o [1]
+e2p_read                0x080062a7   0x90  Code  Gb  bsp_24lc16.o [1]
+e2p_reset               0x080061a9   0x14  Code  Gb  bsp_24lc16.o [1]
+e2p_save_read           0x08006593   0x14  Code  Gb  bsp_24lc16.o [1]
+e2p_save_write          0x08006583   0x10  Code  Gb  bsp_24lc16.o [1]
+e2p_vfo_read            0x08006439   0x8a  Code  Gb  bsp_24lc16.o [1]
+e2p_vfo_write           0x080063bf   0x7a  Code  Gb  bsp_24lc16.o [1]
+e2p_vol_read            0x080064f7   0x14  Code  Gb  bsp_24lc16.o [1]
+e2p_vol_write           0x080064e7   0x10  Code  Gb  bsp_24lc16.o [1]
+e2p_write               0x0800622f   0x78  Code  Gb  bsp_24lc16.o [1]
+e2p_write_mulbyte       0x080061bd   0x72  Code  Gb  bsp_24lc16.o [1]
+element_stop_time       0x20001b0a    0x2  Data  Lc  bsp_iambic_keyer.o [1]
+exit                    0x0800b0af    0x4  Code  Gb  exit.o [3]
+freq_one                0x20001247    0x1  Data  Gb  bsp_oled_api.o [1]
+freq_three              0x20001246    0x1  Data  Gb  bsp_oled_api.o [1]
+freq_two                0x20001240    0x2  Data  Gb  bsp_oled_api.o [1]
+gpio_init               0x08004395   0x5e  Code  Gb  bsp_board.o [1]
+hswr_timeout            0x20001b08    0x2  Data  Gb  bsp_board.o [1]
+i2c_ack                 0x08006851   0x28  Code  Gb  i2c.o [1]
+i2c_getack              0x080068a1   0x4c  Code  Gb  i2c.o [1]
+i2c_init                0x080067b1   0x50  Code  Gb  i2c.o [1]
+i2c_noack               0x08006879   0x28  Code  Gb  i2c.o [1]
+i2c_reset               0x08006771   0x40  Code  Gb  i2c.o [1]
+i2c_rx                  0x08006933   0x50  Code  Gb  i2c.o [1]
+i2c_start               0x08006801   0x2e  Code  Gb  i2c.o [1]
+i2c_stop                0x0800682f   0x22  Code  Gb  i2c.o [1]
+i2c_tx                  0x080068ed   0x46  Code  Gb  i2c.o [1]
+isRun                   0x20001b1b    0x1  Data  Gb  bsp_board.o [1]
+kTick                   0x20001b12    0x2  Data  Gb  bsp_key.o [1]
+kVal                    0x20001245    0x1  Data  Gb  bsp_key.o [1]
+key                     0x20001ac4    0x4  Data  Lc  bsp_board.o [1]
+key                     0x20001afc    0x4  Data  Lc  bsp_key.o [1]
+keySwitch               0x20001b24    0x1  Data  Gb  bsp_iambic_keyer.o [1]
+key_availlble           0x20001b27    0x1  Data  Gb  bsp_key.o [1]
+key_calback             0x08006df9   0xe2  Code  Gb  bsp_key.o [1]
+key_clear               0x08006def    0xa  Code  Gb  bsp_key.o [1]
+key_init                0x08006a5d  0x102  Code  Gb  bsp_key.o [1]
+key_ispress             0x08006ddf   0x10  Code  Gb  bsp_key.o [1]
+key_read                0x08006b5f  0x280  Code  Gb  bsp_key.o [1]
+key_task                0x0800553d  0x90a  Code  Gb  bsp_board.o [1]
+keyer_auto_setup        0x08007c55   0x2e  Code  Gb  bsp_iambic_keyer.o [1]
+keyer_auto_task         0x080082d3  0x2fe  Code  Gb  bsp_iambic_keyer.o [1]
+keyer_init              0x08007bed   0x48  Code  Gb  bsp_iambic_keyer.o [1]
+keyer_manual_task       0x08007c83   0xd4  Code  Gb  bsp_iambic_keyer.o [1]
+lo_update               0x0800892b   0x2a  Code  Gb  bsp_ad9951.o [1]
+main                    0x0800b097   0x18  Code  Gb  main.o [1]
+mem_set_one             0x20001249    0x1  Data  Gb  bsp_oled_api.o [1]
+mem_set_three           0x20001248    0x1  Data  Gb  bsp_oled_api.o [1]
+mem_set_two             0x20001242    0x2  Data  Gb  bsp_oled_api.o [1]
+menu_pos                0x20001b36    0x1  Data  Gb  bsp_oled_api.o [1]
+milliseconds            0x20001b0c    0x2  Data  Lc  bsp_iambic_keyer.o [1]
+oled_ascii_1608         0x0800182d   0x52  Code  Gb  bsp_oled_api.o [1]
+oled_ascii_3216         0x0800357f   0x50  Code  Gb  bsp_oled_api.o [1]
+oled_ascii_3216_dot     0x08003505   0x7a  Code  Gb  bsp_oled_api.o [1]
+oled_button_lock        0x08001499   0x24  Code  Gb  bsp_oled_api.o [1]
+oled_clear_grid         0x08001429   0x42  Code  Gb  bsp_oled_api.o [1]
+oled_close_wpm          0x080014db   0x10  Code  Gb  bsp_oled_api.o [1]
+oled_display_off        0x080001d5    0xa  Code  Gb  bsp_oled_api.o [1]
+oled_display_on         0x080001cb    0xa  Code  Gb  bsp_oled_api.o [1]
+oled_draw_grid          0x080013d9   0x50  Code  Gb  bsp_oled_api.o [1]
+oled_draw_scale         0x080035cf   0x3c  Code  Gb  bsp_oled_api.o [1]
+oled_draw_scale1        0x0800116b   0x3c  Code  Gb  bsp_oled_api.o [1]
+oled_filter             0x0800154d    0xe  Code  Gb  bsp_oled_api.o [1]
+oled_freq_1608          0x08001881  0x1e2  Code  Gb  bsp_oled_api.o [1]
+oled_h_vswr_clear       0x080033cd    0xe  Code  Gb  bsp_oled_api.o [1]
+oled_h_vswr_disp        0x080033bf    0xe  Code  Gb  bsp_oled_api.o [1]
+oled_init               0x08000131   0x9a  Code  Gb  bsp_oled_api.o [1]
+oled_init_disp          0x0800155b    0xc  Code  Gb  bsp_oled_api.o [1]
+oled_lsb_usb            0x080014fb    0xe  Code  Gb  bsp_oled_api.o [1]
+oled_lsb_usb_mem        0x080033b1    0xe  Code  Gb  bsp_oled_api.o [1]
+oled_mem_set            0x080033db   0xee  Code  Gb  bsp_oled_api.o [1]
+oled_menu_arrows_set    0x080030dd   0xc0  Code  Gb  bsp_oled_api.o [1]
+oled_menu_set           0x080031a5  0x20c  Code  Gb  bsp_oled_api.o [1]
+oled_rf_grid            0x08001675   0x72  Code  Gb  bsp_oled_api.o [1]
+oled_rit                0x08001517    0xe  Code  Gb  bsp_oled_api.o [1]
+oled_rit_txfreq         0x08001525    0xe  Code  Gb  bsp_oled_api.o [1]
+oled_rit_txfreq_clear   0x08001533    0xc  Code  Gb  bsp_oled_api.o [1]
+oled_rx_grid            0x08001599   0x6e  Code  Gb  bsp_oled_api.o [1]
+oled_set_screen         0x080001df   0x42  Code  Gb  bsp_oled_api.o [1]
+oled_swr_grid           0x08001607   0x6e  Code  Gb  bsp_oled_api.o [1]
+oled_ts                 0x08001509    0xe  Code  Gb  bsp_oled_api.o [1]
+oled_tx_power           0x0800153f    0xe  Code  Gb  bsp_oled_api.o [1]
+oled_txrx               0x080014bd    0xe  Code  Gb  bsp_oled_api.o [1]
+oled_txrx_clear_grid    0x08001567   0x32  Code  Gb  bsp_oled_api.o [1]
+oled_update_dc          0x080014eb   0x10  Code  Gb  bsp_oled_api.o [1]
+oled_update_freq        0x080011a7  0x1c2  Code  Gb  bsp_oled_api.o [1]
+oled_update_frequency   0x08001369   0x42  Code  Gb  bsp_oled_api.o [1]
+oled_update_mem         0x08001479   0x10  Code  Gb  bsp_oled_api.o [1]
+oled_update_rx_scaler   0x080013ab    0xc  Code  Gb  bsp_oled_api.o [1]
+oled_update_tx_scaler   0x080013b7   0x1c  Code  Gb  bsp_oled_api.o [1]
+oled_update_vol         0x08001489   0x10  Code  Gb  bsp_oled_api.o [1]
+oled_update_wpm         0x080014cb   0x10  Code  Gb  bsp_oled_api.o [1]
+oled_vfo                0x0800146b    0xe  Code  Gb  bsp_oled_api.o [1]
+power_high_off          0x0800447f   0x10  Code  Gb  bsp_board.o [1]
+power_high_on           0x0800446f   0x10  Code  Gb  bsp_board.o [1]
+power_key_init          0x080043f3   0x5c  Code  Gb  bsp_board.o [1]
+power_off               0x0800449d    0xe  Code  Gb  bsp_board.o [1]
+power_on                0x0800448f    0xe  Code  Gb  bsp_board.o [1]
+pttDown                 0x20001b2e    0x1  Data  Gb  bsp_key.o [1]
+pttUp                   0x20001b2d    0x1  Data  Gb  bsp_key.o [1]
+pwm_freq_set            0x08003b3d   0x3a  Code  Gb  bsp_pwm.o [1]
+pwm_init                0x08003a85   0xb8  Code  Gb  bsp_pwm.o [1]
+pwm_period              0x20001b14    0x2  Data  Gb  bsp_pwm.o [1]
+pwm_start               0x08003bbf   0x14  Code  Gb  bsp_pwm.o [1]
+pwm_stop                0x08003bd3   0x14  Code  Gb  bsp_pwm.o [1]
+queue_clear             0x08007bb3   0x1a  Code  Gb  bsp_iambic_keyer.o [1]
+queue_get               0x08007b69   0x4a  Code  Gb  bsp_iambic_keyer.o [1]
+queue_init              0x08007b09   0x1a  Code  Gb  bsp_iambic_keyer.o [1]
+queue_save              0x08007b23   0x46  Code  Gb  bsp_iambic_keyer.o [1]
+rf_grid_old             0x20001b39    0x1  Data  Gb  bsp_oled_api.o [1]
+rx_grid_old             0x20001b37    0x1  Data  Gb  bsp_oled_api.o [1]
+sTick                   0x20001b0e    0x2  Data  Gb  bsp_iambic_keyer.o [1]
+scaler_rf               0x20000144   0x58  Data  Gb  bsp_oled_api.o [1]
+scaler_rx               0x2000019c  0x13c  Data  Gb  bsp_oled_api.o [1]
+scaler_swr              0x200000ec   0x58  Data  Gb  bsp_oled_api.o [1]
+sin_para_get            0x08003b77   0x48  Code  Gb  bsp_pwm.o [1]
+software_init           0x080044ab  0x1ae  Code  Gb  bsp_board.o [1]
+spi_io_init             0x08003649   0xae  Code  Gb  bsp_oled.o [1]
+spi_write_command       0x080036f7   0x62  Code  Gb  bsp_oled.o [1]
+spi_write_data          0x08003759   0x62  Code  Gb  bsp_oled.o [1]
+strlen                  0x08003a25         Code  Gb  strlen.o [5]
+swr_grid_old            0x20001b38    0x1  Data  Gb  bsp_oled_api.o [1]
+tick1s                  0x20001b28    0x1  Data  Gb  bsp_key.o [1]
+timer_state             0x20001b1f    0x1  Data  Gb  bsp_iambic_keyer.o [1]
+tp_init                 0x08003c79   0x3c  Code  Gb  bsp_transmit_power.o [1]
+tx_control_off          0x08003d3b    0xe  Code  Gb  bsp_transmit_power.o [1]
+tx_control_on           0x08003d2d    0xe  Code  Gb  bsp_transmit_power.o [1]
+upCnt                   0x20001b34    0x1  Data  Gb  bsp_key.o [1]
+usart_init              0x08008a07   0xfc  Code  Gb  bsp_usart.o [1]
+usart_rx_analysis       0x08008b97   0x2e  Code  Gb  bsp_usart.o [1]
+vfo_init                0x080042dd   0xb8  Code  Gb  bsp_board.o [1]
+voice_control_start     0x0800445f   0x10  Code  Gb  bsp_board.o [1]
+voice_control_stop      0x0800444f   0x10  Code  Gb  bsp_board.o [1]
+vol_control             0x08006659   0x90  Code  Gb  bsp_vol.o [1]
+vol_init                0x08006621   0x38  Code  Gb  bsp_vol.o [1]
+word_stop_time          0x20001af0    0x4  Data  Lc  bsp_iambic_keyer.o [1]
+
+
+[1] = D:\Ham\RadioStation\PRJ\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  45 248 bytes of readonly  code memory
+   2 192 bytes of readonly  data memory
+   6 968 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

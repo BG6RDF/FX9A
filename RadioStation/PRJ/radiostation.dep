@@ -1,0 +1,2077 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1569048166</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_vol.o</file>
+      <file>$PROJ_DIR$\..\BSP\i2c.h</file>
+      <file>$PROJ_DIR$\..\BSP\zk.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_transmit_power.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_transmit_power.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Exe\radiostation.hex</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.__cstat.et</file>
+      <file>$PROJ_DIR$\stm32f10x_flash.icf</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_iambic_keyer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_kenwood.o</file>
+      <file>$PROJ_DIR$\..\CMSIS\core_cm3.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_oled_api.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_delay.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_usart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_oled_api.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_ad9951.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_usart.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_adc.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_pwm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_adc.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_usart.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_tim.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_oled.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_24lc16.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_vol.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_24lc16.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_adc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_dac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_dac.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_oled.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_receive_att.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_baud.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dma.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_dac.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Exe\radiostation.out</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2c.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_oled.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_tim.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_ad9951.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_transmit_power.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_receive_att.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\List\radiostation.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_usart.pbi</file>
+      <file>$PROJ_DIR$\..\CMSIS\system_stm32f10x.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_adc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_receive_att.o</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_pwm.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_ad9834.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dma.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_key.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_timer.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_delay.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_kenwood.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dma.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_ad9834.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_pwm.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_iambic_keyer.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_key.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_vol.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_key.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_baud.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_ad9834.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_oled_api.__cstat.et</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_dac.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_delay.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_exti.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_24lc16.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_ad9951.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_exti.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_hd.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_usart.o</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_iambic_keyer.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_tim.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_adc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_exti.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_kenwood.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_adc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_timer.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2c.__cstat.et</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_dac.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_receive_att.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_key.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_board.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_oled.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_oled.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_baud.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_iambic_keyer.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_key.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_pwm.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_pwm.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_timer.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_kenwood.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_delay.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_iambic_keyer.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_delay.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_timer.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_transmit_power.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_transmit_power.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_usart.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_usart.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_vol.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_vol.h</file>
+      <file>$PROJ_DIR$\..\BSP\i2c.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_receive_att.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_oled_api.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_adc.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_kenwood.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_adc.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_board.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_baud.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_oled_api.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_24lc16.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_24lc16.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_ad9834.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_ad9834.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_ad9951.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_ad9951.h</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_conf.h</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_adc.h</file>
+      <file>$PROJ_DIR$\..\CMSIS\startup_stm32f10x_hd.s</file>
+      <file>$PROJ_DIR$\..\CMSIS\stm32f10x.h</file>
+      <file>$PROJ_DIR$\..\CMSIS\system_stm32f10x.c</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_dma.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_board.o</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_gpio.c</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_dma.h</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_exti.c</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_exti.h</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\misc.c</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\misc.h</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_adc.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_tim.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_usart.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_board.__cstat.et</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_tim.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2c.pbi</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_rcc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_board.pbi</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_rcc.c</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_gpio.h</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_usart.h</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_usart.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_baud.o</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 59 49</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\radiostation.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 8 34 77 55 63 184 162 38 74 108 12 83 27 18 68 64 115 3 17 0 51 98 62 104 36 76 112 97 16 54 105 31 65 45 21 102</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_dac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_receive_att.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 142 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147 99 41 96 35 56 66 178 6 107 157 156 52 69 133 67 9 166 182 159 61 106 42 33 80 172 85 116 109 164 181 173 168 13 142 50 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_board.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 175</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133 149 123 120 146 148 132 151 1 136 140 155 153 128 134 138</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159 140 56 61 147 148 134 156 66 166 120 151 153 33 67 9 182 52 149 146 132 136 155 128 138 42 80 96 35 99 107 157 178 106 6 69 41 133 172 85 116 109 164 181 173 168 13 50 44 123 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_oled.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67 9 33 66 156 56 157 52 147 42 80 96 35 99 107 178 106 159 6 69 41 133 172 85 116 166 182 61 123 109 164 181 173 168 13 50 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_baud.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 184</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 148 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 6 107 157 147 41 96 35 99 56 178 156 52 69 133 67 9 166 182 159 106 42 33 80 172 85 116 109 164 181 173 168 61 148 13 50 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_iambic_keyer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133 134 128 149 123 120</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80 107 147 66 159 120 42 96 35 99 56 182 52 128 33 156 67 9 166 61 134 149 6 69 41 133 172 85 116 157 178 106 123 132 109 164 181 173 168 13 50 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_key.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133 134 146 149 123</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 96 172 164 159 147 42 99 80 66 107 13 44 146 33 156 67 9 56 173 50 134 149 6 69 41 133 85 116 109 181 168 120 157 166 178 182 61 106 52 123</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_pwm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172 13 33 116 164 156 67 173 52 147 42 80 66 85 109 181 168 106 159 6 69 41 133 96 35 9 56 99 107 157 166 178 182 61 128 50 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 115</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 134 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173 156 67 172 33 116 164 13 52 42 80 66 85 109 181 168 106 159 147 6 69 41 133 96 35 9 56 99 107 157 166 178 182 61 134 50 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_delay.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56 159 61 69 66 166 133 67 9 182 50 6 41 96 35 99 107 157 178 44 147 42 33 80 156 172 85 116 109 164 181 173 168 13 106 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_transmit_power.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 136 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147 99 41 96 35 56 66 178 6 107 157 156 52 69 133 67 9 166 182 159 106 42 33 80 172 85 116 109 164 181 173 168 61 136 13 50 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_usart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 174</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133 130</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116 33 172 164 61 147 159 156 67 173 42 80 66 85 109 181 168 52 130 6 69 41 133 96 35 9 56 99 107 157 166 178 182 106 138 13 50 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_vol.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 140 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56 159 61 69 66 166 133 67 9 182 156 52 147 6 41 96 35 99 107 157 178 106 42 33 80 172 85 116 109 164 181 173 168 13 140 50 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\i2c.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 177</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 80 85 172 181 66 109 168 156 52 33 116 67 164 173 106 159 147 6 69 41 133 96 35 9 56 99 107 157 166 178 182 61 1 13 50 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_oled_api.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149 123 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133 2 128 136</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172 69 66 109 168 123 133 85 181 42 159 128 6 41 116 67 164 173 13 50 52 147 2 136 33 80 156 96 35 9 56 99 107 157 166 178 182 61 106 149 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85 80 172 181 42 66 109 168 156 52 33 116 67 164 173 106 159 147 6 69 41 133 96 35 9 56 99 107 157 166 178 182 61 146 13 50 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_kenwood.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 130 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133 138 149 123 132 120</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157 156 52 123 66 33 67 9 107 147 120 149 42 80 96 35 99 56 178 106 159 138 132 6 69 41 133 172 85 166 182 61 130 116 109 164 181 173 168 13 50 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_24lc16.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178 109 69 172 66 106 133 85 159 1 6 41 116 67 157 156 52 147 42 33 80 96 35 9 56 99 107 166 182 61 151 164 181 173 168 13 50 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_ad9834.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157 66 6 107 147 41 96 35 99 56 178 156 52 69 133 67 9 166 182 159 61 106 42 33 80 172 85 116 109 164 181 173 168 13 153 50 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_ad9951.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 147 133 67 9 56 182 69 166 159 156 52 6 41 96 35 99 107 157 178 106 42 33 80 172 85 116 109 164 181 173 168 61 155 13 50 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\CMSIS\startup_stm32f10x_hd.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\CMSIS\system_stm32f10x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 159 13 42 66 172 96 35 9 67 85 106 52 44 50 61 156 157 164 166 181 178 173 182 168</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 173 106 156 61 67 9 164 159 13 42 50 96 35 44 181 168 172 85 52 157 166 178 182</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_dma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 164 159 13 42 66 172 96 35 9 67 85 106 52 44 50 61 156 157 166 181 178 173 182 168</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 156 106 178 61 52 157 159 13 42 50 172 66 85 166 182 164 96 67 35 9 44 181 173 168</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181 159 13 42 66 172 96 35 9 67 85 106 52 44 50 61 156 157 164 166 178 173 182 168</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 173 159 13 42 50 67 9 164 178 61 96 35 44 181 168 156 106 172 85 52 157 166 182</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_exti.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 166 159 13 42 66 172 96 35 9 67 85 106 52 44 50 61 156 157 164 181 178 173 182 168</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157 159 42 52 13 50 178 61 156 106 172 66 85 166 182 96 67 35 9 44 164 181 173 168</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\StdPeriph_Driver\misc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168 159 13 42 66 172 96 35 9 67 85 106 52 44 50 61 156 157 164 166 181 178 173 182</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 157 13 52 42 178 159 61 156 106 172 66 85 166 182 168 96 67 35 9 44 164 181 173</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 157 159 13 42 66 172 96 35 9 67 85 106 52 44 50 61 156 164 166 181 178 173 182 168</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 42 67 66 50 164 159 13 173 178 61 96 35 44 181 168 157 156 106 172 85 52 166 182</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 147 42 66 172 96 35 9 67 85 6 33 56 99 69 107 116 80 41 109 156 157 159 13 106 52 44 50 61 164 166 181 178 173 182 168 133 134</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 69 166 56 159 61 133 67 9 182 6 41 96 35 99 107 157 178 52 147 134 42 33 80 156 172 85 116 109 164 181 173 168 13 106 50 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_tim.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173 159 13 42 66 172 96 35 9 67 85 106 52 44 50 61 156 157 164 166 181 178 182 168</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 85 172 182 159 66 52 166 178 13 42 156 106 157 173 50 96 67 35 9 44 164 181 168</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 159 13 42 66 172 96 35 9 67 85 106 52 44 50 61 156 157 164 166 181 173 182 168</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 96 35 13 42 159 44 181 61 50 66 67 9 164 173 178 156 106 172 85 52 157 166 182</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_usart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 182 159 13 42 66 172 96 35 9 67 85 106 52 44 50 61 156 157 164 166 181 178 173 168</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 159 172 66 52 166 13 50 85 182 178 61 156 106 157 96 67 35 9 44 164 181 173 168</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\BSP\i2c.h</file>
+      <file>$PROJ_DIR$\..\BSP\zk.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_transmit_power.o</file>
+      <file>$PROJ_DIR$\..\CMSIS\core_cm3.h</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_timer.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_rcc.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_adc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_oled.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_24lc16.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_ad9834.o</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_delay.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_usart.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\system_stm32f10x.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_pwm.o</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_exti.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_dma.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_adc.o</file>
+      <file>$PROJ_DIR$\Release\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_oled.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_adc.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_transmit_power.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_adc.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_board.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_iambic_keyer.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\i2c.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_oled_api.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_timer.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_vol.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_kenwood.o</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_dma.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_oled_api.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_key.o</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_adc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\misc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_transmit_power.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_receive_att.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\system_stm32f10x.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\radiostation.pbd</file>
+      <file>$PROJ_DIR$\Release\Exe\radiostation.hex</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_tim.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_dac.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_tim.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_24lc16.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_usart.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_vol.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_baud.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_receive_att.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_rcc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\misc.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_ad9834.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_exti.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_usart.o</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_exti.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_dac.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_usart.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_adc.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_dma.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_delay.o</file>
+      <file>$PROJ_DIR$\Release\Obj\i2c.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_dac.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_vol.o</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_key.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_board.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\main.o</file>
+      <file>$PROJ_DIR$\Release\Exe\radiostation.out</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_ad9951.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_baud.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_pwm.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_usart.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_pwm.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_kenwood.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_usart.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_baud.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_iambic_keyer.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_oled_api.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_board.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_ad9834.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_oled.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_gpio.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_gpio.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_kenwood.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\misc.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_ad9951.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_key.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_timer.o</file>
+      <file>$PROJ_DIR$\Release\Obj\system_stm32f10x.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_rcc.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_24lc16.o</file>
+      <file>$PROJ_DIR$\Release\Obj\startup_stm32f10x_hd.o</file>
+      <file>$PROJ_DIR$\Release\Obj\i2c.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_iambic_keyer.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_delay.pbi</file>
+      <file>$TOOLKIT_DIR$\config\linker\ST\stm32f103xC.icf</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_ad9951.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32f10x_tim.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bsp_receive_att.o</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\CMSIS\system_stm32f10x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_dac.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_dac.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_receive_att.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_key.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_board.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_oled.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_oled.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_baud.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_iambic_keyer.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_key.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_pwm.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_pwm.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_timer.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_kenwood.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_delay.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_iambic_keyer.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_delay.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_timer.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_transmit_power.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_transmit_power.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_usart.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_usart.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_vol.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_vol.h</file>
+      <file>$PROJ_DIR$\..\BSP\i2c.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_receive_att.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_oled_api.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_adc.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_kenwood.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_adc.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_board.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_baud.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_oled_api.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_24lc16.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_24lc16.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_ad9834.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_ad9834.h</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_ad9951.c</file>
+      <file>$PROJ_DIR$\..\BSP\bsp_ad9951.h</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_conf.h</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_adc.h</file>
+      <file>$PROJ_DIR$\..\CMSIS\startup_stm32f10x_hd.s</file>
+      <file>$PROJ_DIR$\..\CMSIS\stm32f10x.h</file>
+      <file>$PROJ_DIR$\..\CMSIS\system_stm32f10x.c</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_dma.c</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_gpio.c</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_dma.h</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_exti.c</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_exti.h</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\misc.c</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\misc.h</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_adc.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_tim.h</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_tim.c</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_rcc.h</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_rcc.c</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_gpio.h</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_usart.h</file>
+      <file>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_usart.c</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\radiostation.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 96 91 11 69 22 70 25 56 60 94 31 34 21 28 16 99 88 4 54 63 61 67 51 92 19 59 55 83 7 98 75 15 106 100 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_dac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_receive_att.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 148 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 153 112 109 182 103 111 2 171 165 162 108 113 139 117 102 118 121 163 179 120 104 101 114 176 115 123 122 169 181 177 173 110 148 5 107 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_board.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139 155 129 126 152 154 138 157 0 142 146 161 159 134 140 144</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 139 104 153 154 140 115 176 181 126 157 159 113 111 122 173 165 155 152 138 142 161 134 144 2 103 123 112 169 177 5 107 105 129 0 101 114 162 117 102 3 109 118 121 163 171 179 182 110 120 108</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_oled.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 101 112 3 162 109 163 108 153 104 114 117 102 118 121 179 120 165 2 113 103 139 176 115 123 171 182 110 129 122 169 181 177 173 5 107 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_baud.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 171 2 109 165 153 103 112 3 182 162 108 113 139 117 102 118 121 163 179 120 104 101 114 176 115 123 122 169 181 177 173 110 154 5 107 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_iambic_keyer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139 140 134 155 129 126</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 153 115 176 165 126 113 111 109 182 108 134 2 103 123 171 110 140 155 104 101 114 162 117 112 102 3 118 121 163 179 120 129 138 122 169 181 177 173 5 107 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_key.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 126 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139 140 152 155 129</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 113 176 111 139 115 181 152 2 103 123 112 122 173 165 140 155 153 101 114 162 117 102 3 109 118 121 169 177 5 107 105 126 163 171 179 182 110 120 108 129</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_pwm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 134 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 171 2 109 165 103 112 3 182 162 108 113 139 117 102 118 121 163 179 120 153 104 101 114 176 115 123 122 169 181 177 173 110 134 5 107 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 140 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162 176 111 122 173 101 115 181 104 108 114 123 112 169 177 5 120 165 153 2 113 103 139 117 102 3 109 118 121 163 171 179 182 110 140 107 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_delay.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 139 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 102 109 117 179 113 118 139 121 163 107 2 103 112 3 171 182 165 110 105 153 104 101 114 162 176 115 123 122 169 181 177 173 5 120 108</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_transmit_power.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 142 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109 153 112 3 182 103 111 2 171 165 162 108 113 139 117 102 118 121 163 179 120 104 101 114 176 115 123 122 169 181 177 173 110 142 5 107 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_usart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 144 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139 136</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101 110 153 115 176 181 165 162 111 122 173 104 114 123 112 169 177 108 136 2 113 103 139 117 102 3 109 118 121 163 171 179 182 120 144 5 107 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_vol.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109 102 111 117 179 113 118 139 121 163 162 108 153 2 103 112 3 171 182 165 120 104 101 114 176 115 123 122 169 181 177 173 110 146 5 107 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\i2c.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 176 112 177 104 114 123 169 162 108 101 111 115 122 181 173 120 165 153 2 113 103 139 117 102 3 109 118 121 163 171 179 182 110 0 5 107 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_oled_api.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155 129 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139 1 134 142</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 171 162 109 165 110 134 101 112 3 182 108 153 1 142 104 114 117 102 118 121 163 179 120 155 129 2 113 103 139 176 115 123 122 169 181 177 173 5 107 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 152 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114 112 176 177 104 123 169 162 108 101 111 115 122 181 173 120 165 153 2 113 103 139 117 102 3 109 118 121 163 171 179 182 110 152 5 107 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_kenwood.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 136 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139 144 155 129 138 126</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163 162 108 129 111 153 104 117 121 126 114 155 101 112 102 118 109 179 120 165 144 138 2 113 103 139 176 3 171 182 110 136 115 123 122 169 181 177 173 5 107 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_24lc16.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 157 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118 179 104 117 102 109 111 120 0 114 121 165 101 162 112 3 163 108 153 2 113 103 139 176 115 123 171 182 110 157 122 169 181 177 173 5 107 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_ad9834.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 159 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 122 176 111 139 115 163 162 108 2 103 123 112 179 120 165 153 104 101 114 117 102 3 109 118 121 171 182 110 159 169 181 177 173 5 107 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\BSP\bsp_ad9951.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 161 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 153 139 121 163 113 117 102 118 109 179 162 108 2 103 112 3 171 182 165 120 104 101 114 176 115 123 122 169 181 177 173 110 161 5 107 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\CMSIS\startup_stm32f10x_hd.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\CMSIS\system_stm32f10x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 165 5 104 111 176 117 102 3 112 115 120 108 105 107 110 162 163 169 171 181 179 177 182 173</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 177 120 162 110 112 3 169 165 5 104 107 117 102 105 181 173 176 115 108 163 171 179 182</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_dma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 169 165 5 104 111 176 117 102 3 112 115 120 108 105 107 110 162 163 171 181 179 177 182 173</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162 120 179 110 108 163 165 5 104 107 176 111 115 171 182 169 117 112 102 3 105 181 177 173</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181 165 5 104 111 176 117 102 3 112 115 120 108 105 107 110 162 163 169 171 179 177 182 173</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 177 165 5 104 107 112 3 169 179 110 117 102 105 181 173 162 120 176 115 108 163 171 182</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_exti.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 171 165 5 104 111 176 117 102 3 112 115 120 108 105 107 110 162 163 169 181 179 177 182 173</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163 165 104 108 5 107 179 110 162 120 176 111 115 171 182 117 112 102 3 105 169 181 177 173</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\StdPeriph_Driver\misc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173 165 5 104 111 176 117 102 3 112 115 120 108 105 107 110 162 163 169 171 181 179 177 182</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 163 5 108 104 179 165 110 162 120 176 111 115 171 182 173 117 112 102 3 105 169 181 177</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 163 165 5 104 111 176 117 102 3 112 115 120 108 105 107 110 162 169 171 181 179 177 182 173</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 104 112 111 107 169 165 5 177 179 110 117 102 105 181 173 163 162 120 176 115 108 171 182</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153 104 111 176 117 102 3 112 115 2 101 109 118 113 121 123 114 103 122 162 163 165 5 120 108 105 107 110 169 171 181 179 177 182 173 139 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118 113 117 102 109 111 179 165 139 121 163 2 103 112 3 171 182 110 108 153 140 104 101 114 162 176 115 123 122 169 181 177 173 5 120 107 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_tim.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 177 165 5 104 111 176 117 102 3 112 115 120 108 105 107 110 162 163 169 171 181 179 182 173</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 115 176 182 165 111 108 171 179 5 104 162 120 163 177 107 117 112 102 3 105 169 181 173</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179 165 5 104 111 176 117 102 3 112 115 120 108 105 107 110 162 163 169 171 181 177 182 173</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173 117 102 5 104 165 105 181 110 107 111 112 3 169 177 179 162 120 176 115 108 163 171 182</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\StdPeriph_Driver\stm32f10x_usart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 182 165 5 104 111 176 117 102 3 112 115 120 108 105 107 110 162 163 169 171 181 179 177 173</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 165 176 111 108 171 5 107 115 182 179 110 162 120 163 117 112 102 3 105 169 181 177 173</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

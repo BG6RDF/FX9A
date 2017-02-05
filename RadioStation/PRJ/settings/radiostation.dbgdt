@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1307</ColumnWidth1></Debug-Log>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>980</ColumnWidth1><ColumnWidth2>261</ColumnWidth2><ColumnWidth3>65</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>159</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <ShowCodeCoverage>0</ShowCodeCoverage><ShowInstrProfiling>0</ShowInstrProfiling></Disassembly>
+    <WATCH_1><expressions><item>buf</item><item>len</item><item>VOL</item><item>MEM</item><item>FREQ</item><item>VFO</item><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>154</item><item>150</item><item>100</item><item>100</item></col-widths></WATCH_1><TerminalIO><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><InputSource>1</InputSource><InputMode>10</InputMode><Filename>$PROJ_DIR$\TermIOInput.txt</Filename><InputEcho>1</InputEcho><ShowReset>0</ShowReset></TerminalIO></Static>
+    <Windows>
+      
+      
+      
+    <Wnd4>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-2279-101</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-1756-111</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd4><Wnd5>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-13027-105</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>radiostation</ExpandedNode><ExpandedNode>radiostation/BSP</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd5><Wnd6>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-23775-108</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd6><Wnd7><Tabs><Tab><Identity>TabID-29408-17852</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd7></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_kenwood.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>135</SelStart><SelEnd>135</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\StdPeriph_Driver\stm32f10x_conf.h</Filename><XPos>0</XPos><YPos>9</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\StdPeriph_Driver\stm32f10x_usart.h</Filename><XPos>0</XPos><YPos>327</YPos><SelStart>13439</SelStart><SelEnd>13439</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\StdPeriph_Driver\stm32f10x_rcc.h</Filename><XPos>0</XPos><YPos>484</YPos><SelStart>20544</SelStart><SelEnd>20544</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\StdPeriph_Driver\stm32f10x_usart.c</Filename><XPos>0</XPos><YPos>232</YPos><SelStart>5487</SelStart><SelEnd>5487</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\StdPeriph_Driver\stm32f10x_tim.c</Filename><XPos>0</XPos><YPos>2589</YPos><SelStart>94396</SelStart><SelEnd>94396</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\StdPeriph_Driver\stm32f10x_rcc.c</Filename><XPos>0</XPos><YPos>934</YPos><SelStart>30806</SelStart><SelEnd>30806</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_baud.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_usart.h</Filename><XPos>0</XPos><YPos>3</YPos><SelStart>423</SelStart><SelEnd>423</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_usart.c</Filename><XPos>0</XPos><YPos>171</YPos><SelStart>5282</SelStart><SelEnd>5282</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_vol.c</Filename><XPos>0</XPos><YPos>21</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\CMSIS\stm32f10x.h</Filename><XPos>1</XPos><YPos>338</YPos><SelStart>22460</SelStart><SelEnd>22467</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_kenwood.c</Filename><XPos>0</XPos><YPos>1177</YPos><SelStart>9764</SelStart><SelEnd>9764</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_baud.c</Filename><XPos>0</XPos><YPos>39</YPos><SelStart>4871</SelStart><SelEnd>4871</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_timer.c</Filename><XPos>0</XPos><YPos>101</YPos><SelStart>2834</SelStart><SelEnd>2834</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_oled_api.c</Filename><XPos>0</XPos><YPos>1454</YPos><SelStart>34984</SelStart><SelEnd>34984</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_key.c</Filename><XPos>0</XPos><YPos>325</YPos><SelStart>13112</SelStart><SelEnd>13112</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_board.h</Filename><XPos>0</XPos><YPos>136</YPos><SelStart>2323</SelStart><SelEnd>2323</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_iambic_keyer.c</Filename><XPos>0</XPos><YPos>449</YPos><SelStart>9724</SelStart><SelEnd>9724</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_pwm.c</Filename><XPos>0</XPos><YPos>144</YPos><SelStart>453</SelStart><SelEnd>453</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_ad9834.c</Filename><XPos>0</XPos><YPos>83</YPos><SelStart>1985</SelStart><SelEnd>1985</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_ad9951.c</Filename><XPos>0</XPos><YPos>201</YPos><SelStart>5963</SelStart><SelEnd>5982</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\CMSIS\startup_stm32f10x_hd.s</Filename><XPos>0</XPos><YPos>45</YPos><SelStart>2793</SelStart><SelEnd>2793</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_24lc16.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>146</SelStart><SelEnd>173</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\StdPeriph_Driver\stm32f10x_gpio.c</Filename><XPos>0</XPos><YPos>355</YPos><SelStart>11057</SelStart><SelEnd>11071</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\i2c.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>148</SelStart><SelEnd>148</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\StdPeriph_Driver\stm32f10x_gpio.h</Filename><XPos>0</XPos><YPos>62</YPos><SelStart>2316</SelStart><SelEnd>2332</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\i2c.c</Filename><XPos>0</XPos><YPos>60</YPos><SelStart>1002</SelStart><SelEnd>1002</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>63</YPos><SelStart>1292</SelStart><SelEnd>1292</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\CMSIS\system_stm32f10x.c</Filename><XPos>0</XPos><YPos>412</YPos><SelStart>16700</SelStart><SelEnd>16700</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_board.c</Filename><XPos>0</XPos><YPos>171</YPos><SelStart>4656</SelStart><SelEnd>4656</SelEnd></Tab><ActiveTab>30</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_24lc16.c</Filename><XPos>0</XPos><YPos>315</YPos><SelStart>6425</SelStart><SelEnd>6425</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_delay.c</Filename><XPos>0</XPos><YPos>54</YPos><SelStart>1146</SelStart><SelEnd>1146</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-012728e8><key>iaridepm.enu1</key></Toolbar-012728e8></Sizes></Row0><Row1><Sizes><Toolbar-22fa54f8><key>debuggergui.enu1</key></Toolbar-22fa54f8></Sizes></Row1><Row2><Sizes><Toolbar-22fa55c0><key>armjlink.enu1</key></Toolbar-22fa55c0></Sizes></Row2></Top><Left><Row0><Sizes><Wnd5><Rect><Top>-2</Top><Left>-2</Left><Bottom>394</Bottom><Right>250</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>146413</sizeHorzCX><sizeHorzCY>291971</sizeHorzCY><sizeVertCX>184480</sizeVertCX><sizeVertCY>578102</sizeVertCY></Rect></Wnd5></Sizes></Row0></Left><Right><Row0><Sizes><Wnd6><Rect><Top>-2</Top><Left>-2</Left><Bottom>394</Bottom><Right>198</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>146413</sizeHorzCX><sizeHorzCY>291971</sizeHorzCY><sizeVertCX>146413</sizeVertCX><sizeVertCY>578102</sizeVertCY></Rect></Wnd6></Sizes></Row0><Row1><Sizes><Wnd7><Rect><Top>-2</Top><Left>196</Left><Bottom>394</Bottom><Right>620</Right><x>196</x><y>-2</y><xscreen>185</xscreen><yscreen>163</yscreen><sizeHorzCX>135432</sizeHorzCX><sizeHorzCY>237956</sizeHorzCY><sizeVertCX>310395</sizeVertCX><sizeVertCY>578102</sizeVertCY></Rect></Wnd7></Sizes></Row1></Right><Bottom><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1368</Right><x>-2</x><y>-2</y><xscreen>1370</xscreen><yscreen>200</yscreen><sizeHorzCX>1002928</sizeHorzCX><sizeHorzCY>291971</sizeHorzCY><sizeVertCX>146413</sizeVertCX><sizeVertCY>291971</sizeVertCY></Rect></Wnd4></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+
