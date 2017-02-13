@@ -180,23 +180,10 @@ uint8_t save;
 MENU_AttrDef tMem;
 uint8_t buf[6];
 VFO_SaveDef TVFO;
-void software_init()
-{
-  //e2p_save_write(0x11);
 
-  if( e2p_save_read() == 0x5a)
-  {
-    e2p_mem_read(0, MEM, 100);
-    VFO = e2p_vfo_read();
-    FIL.func = e2p_fil_read();
-    VOL.val = e2p_vol_read();
-    ATT.val = e2p_att_read();
-    WPM.val = e2p_pwm_read();
-    MENU = e2p_menu_read();
-  }
-  else  // 保存默认配置
-  {
-    e2p_save_write(0x5a);
+void ResetToDefault()
+{
+  e2p_save_write(0x5a);
     
     MENU.delay = 8;
     MENU.freqOfbuzzer = 600;
@@ -235,6 +222,25 @@ void software_init()
     e2p_att_write(ATT.val);
     e2p_pwm_write(WPM.val);
     e2p_menu_write(&MENU);
+}
+
+void software_init()
+{
+  //e2p_save_write(0x11);
+
+  if( e2p_save_read() == 0x5a)
+  {
+    e2p_mem_read(0, MEM, 100);
+    VFO = e2p_vfo_read();
+    FIL.func = e2p_fil_read();
+    VOL.val = e2p_vol_read();
+    ATT.val = e2p_att_read();
+    WPM.val = e2p_pwm_read();
+    MENU = e2p_menu_read();
+  }
+  else  // 保存默认配置
+  {
+    ResetToDefault();
   }
   CWFilter.func = FIL.func;
 
@@ -291,6 +297,12 @@ void board_init()
   
   software_init();
   key_init();           //初始化按钮、编码器和电键的GPIO，初始化GPIO中断和中断向量表，检测手键还是自动键
+  
+  //如果K4,K6被按下，则恢复到默认值
+  uint16_t portValue=GPIO_ReadInputData(GPIOD);
+  if (!(portValue & GPIO_Pin_4) &&  !(portValue & GPIO_Pin_1))  //K4, K6也被按下
+    ResetToDefault();
+
   oled_init();
   adc_init();
   baud_init();
@@ -506,7 +518,7 @@ void MENU_SetUp(uint8_t pos)
       MENU.cwnloOffset=MAX_CWN_LO_OFFSET;
     break;
   default:
-    if(MENU.callSign[pos - 8] == MORSE_CODE_COUNT)
+    if(MENU.callSign[pos - 9] == MORSE_CODE_COUNT)
     {
       MENU.numOfcall = 0;
     }
@@ -518,7 +530,7 @@ void MENU_SetUp(uint8_t pos)
     {
       MENU.numOfcall ++;
     }
-    MENU.callSign[pos - 8] = MENU.numOfcall; 
+    MENU.callSign[pos - 9] = MENU.numOfcall; 
     break;
   }
 }
@@ -629,7 +641,7 @@ void MENU_SetDown(uint8_t pos)
       MENU.cwnloOffset=-MAX_CWN_LO_OFFSET;
     break;
   default:
-    if(MENU.callSign[pos - 8] == MORSE_CODE_COUNT)      // pos中包含了前面的菜单
+    if(MENU.callSign[pos - 9] == MORSE_CODE_COUNT)      // pos中包含了前面的菜单
     {
       MENU.numOfcall = MORSE_CODE_COUNT - 1;
     }
@@ -641,7 +653,7 @@ void MENU_SetDown(uint8_t pos)
     {
       MENU.numOfcall --;
     }
-    MENU.callSign[pos  -8] = MENU.numOfcall; 
+    MENU.callSign[pos  -9] = MENU.numOfcall; 
     break;
   }
 }

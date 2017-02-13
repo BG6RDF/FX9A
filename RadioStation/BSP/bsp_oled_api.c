@@ -1799,11 +1799,11 @@ void oled_menu_set(uint8_t position)
   if((position >= 9 && menu_pos <= 8))
   {
     oled_set_screen(0x00);
-    Show_CALL_SET(pos_x, pos_y, &MENU.callSign[0], position - 8, 1);
+    Show_CALL_SET(pos_x, pos_y, &MENU.callSign[0], position - 9, 1);
   }
   else if(position >= 9)
   {
-    Show_CALL_SET(pos_x, pos_y, &MENU.callSign[0], position - 8, 0);
+    Show_CALL_SET(pos_x, pos_y, &MENU.callSign[0], position - 9, 0);
   }
   //menu_pos记录上一次显示的是哪个菜单
   menu_pos = position;
