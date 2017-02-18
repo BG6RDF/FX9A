@@ -83,7 +83,7 @@ void pwm_init()
   TIM_OC4PreloadConfig(TIM3,TIM_OCPreload_Enable);			// 将CCR预装载功能打开
   TIM_ARRPreloadConfig(TIM3, ENABLE);	  				// 将APR预装载功能打开
   //设置TIM3的PWM输出为禁止
-  TIM_CtrlPWMOutputs(TIM3,DISABLE);  
+  //TIM_CtrlPWMOutputs(TIM3,DISABLE);           //只用于TIM1和TIM8  BG6RDF
   
   TIM_ITConfig(TIM3, TIM_IT_Update, ENABLE);
 }

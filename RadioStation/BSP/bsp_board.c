@@ -730,7 +730,7 @@ uint32_t Get_DDSLO(uint32_t freq)
       }
       else
       {
-        tmp = freq * 10;
+        tmp = freq * 10 + 800;
       }
     }
   }
@@ -761,7 +761,7 @@ uint32_t Get_DDSBFO()
       }
       else
       {
-        tmp = 8999200;
+        tmp = 9001500;
       }
     }
     else
