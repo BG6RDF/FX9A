@@ -796,6 +796,18 @@ void Kenwood_CmdParser(uint8_t *pBuf, uint8_t len)
       UartTx("FL1;", 4); // 1: IF Filter A
     }
   }
+  else if(pBuf[0] == 'F' && pBuf[1] == 'V')
+  {
+    // 未使用
+    if( len > 2)
+    {
+    
+    }
+    else
+    {
+      UartTx("FV1.00;", 7); // 1: Firmware Version
+    }
+  }
   else if(pBuf[0] == 'D' && pBuf[1] == 'A')
   {
     // 未使用
@@ -914,6 +926,18 @@ void Kenwood_CmdParser(uint8_t *pBuf, uint8_t len)
     else
     {
       UartTx("CA0;", 4); // 0: Cancels CW TUNE/ Inactive
+    }
+  }
+  else if(pBuf[0] == 'I' && pBuf[1] == 'D')
+  {
+    // 未使用
+    if( len > 2)
+    {
+    
+    }
+    else
+    {
+      UartTx("ID021;", 6); // TS-590S
     }
   }
   else if(pBuf[0] == 'T' && pBuf[1] == 'O')

@@ -49,7 +49,7 @@ uint16_t hswr_timeout= 0;
 FIL_AttrDef CWFilter; 
 uint8_t MemSetMaxIndex;
 
-#define BFO_DEFAULT_VAL 8998070
+#define BFO_DEFAULT_VAL 8999570         //new: USB  old: 8998070 LSB
 
 uint32_t BAUD[SIZE_OF_BAUD][3] = {
   {179900, 190500, 200099},//160M:      1.799.00MHZ-2.000 .99MHZ
@@ -198,7 +198,7 @@ void ResetToDefault()
 //    MENU.lsbbfo = 8998500;
     MENU.ref = 50000000;
     WPM.val = 15;
-    MENU.cwnloOffset = 0;       //CW窄带模式本振偏移初值  BG6RDF
+    MENU.cwnloOffset = -1130;       //CW窄带模式本振偏移初值  BG6RDF
 
     vfo_init();
     RADIO.mode = LSB;

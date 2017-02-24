@@ -1,3 +1,8 @@
+#2017.02.24-BG6RDF
+##一.修改内容
+###修改窄带CW模式下BFO偏移默认值。使CW宽带和窄带在默认设置下统一为都以上边带方式接收。
+###Thanks to AK4T, he point out that "If you switch 'CW N' and 'CW Wide' you will see that receiving signals are in different side bands."
+
 #2017.02.18-BG6RDF
 ##一.修改内容
 ###修改宽带CW模式下LO和BFO的频率设置，解决假信号接收的问题。
