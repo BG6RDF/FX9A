@@ -1,5 +1,5 @@
 #2017.03.08-AK4T
-##1. Adjust a function for delay to fix some unstable problems. 更新了延时函数以解决在某种情况下不稳定的问题。 
+##1. Increased delay value to match with new MCU clock 72 Mhz. 更新了延时函数以解决在某种情况下不稳定的问题。 
 
 #2017.02.24-BG6RDF
 ##一.修改内容
