@@ -38,7 +38,7 @@ void delay_us(uint32_t nus)
   
   while(nus--)
   {
-    for(uint16_t i=0; i<24; i++)
+    for(uint16_t i=0; i<72; i++)
     {
       __asm("nop");
     }
